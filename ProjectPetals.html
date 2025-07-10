@@ -25,6 +25,7 @@
     }
 
     header {
+
   background-color: #000000;
   color: white;
   padding: 0% 0;
@@ -168,6 +169,7 @@
       font-size: 1.1rem;
     }
 
+
     footer {
       background-color: #333;
       color: white;
@@ -246,6 +248,90 @@
 
           <label for="start-time">Start Time</label>
           <input type="time" id="start-time" name="start-time" required />
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <p>Contact Us: 836-199-7832</p>
+  </header>
+
+ <nav>
+  <div class="nav-container">
+    <div class="logo">
+      <img src="C:\Users\docho817034\Downloads\pixlr-image-generator-686d344ad9f67dc26082e425.png" alt="Project Pedals" width="150" height="50">
+    </div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#team">Our Team</a>
+      <a href="#comingsoon">Coming Soon</a>
+      <a href="#education">Education</a>
+      <a href="AboutUs.html">About Us</a>
+
+    </div>
+  </div>
+</nav>
+
+
+  <section id="services">
+    
+<section id="reserve">
+  <h2>Schedule Your Rental</h2>
+  <h3>Online Reservations Made Easy</h3>
+  <ul>
+    <li>Reserve your bike 24/7 through our website</li>
+    <li>Browse and compare available models</li>
+    <li>Secure online payments</li>
+  </ul>
+
+  <form style="margin-top: 30px;">
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; margin-bottom: 20px;">
+
+      <!-- Start Date & Time -->
+      <div style="flex: 1; min-width: 250px;">
+        <label for="start-date" style="font-weight: bold; display: block; margin-bottom: 8px;">Start Date</label>
+        <input type="date" id="start-date" name="start-date"
+          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
+
+        <label for="start-time" style="font-weight: bold; display: block; margin-top: 15px; margin-bottom: 8px;">Start Time</label>
+        <input type="time" id="start-time" name="start-time"
+          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
+      </div>
+
+      <!-- End Date & Time -->
+      <div style="flex: 1; min-width: 250px;">
+        <label for="end-date" style="font-weight: bold; display: block; margin-bottom: 8px;">End Date</label>
+        <input type="date" id="end-date" name="end-date"
+          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
+
+        <label for="end-time" style="font-weight: bold; display: block; margin-top: 15px; margin-bottom: 8px;">End Time</label>
+        <input type="time" id="end-time" name="end-time"
+          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
+      </div>
+
+    </div>
+
+    <button type="submit"
+      style="background-color: var(--orange); color: white; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 30px; cursor: pointer;">
+      Reserve Now
+    </button>
+  </form>
+</section>
+
+
+
+
+
+
+<section id="my-carousel-section" class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Featured Items</h2>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="D:\ssquare_01\img\bike4.jpg" class="d-block w-100" alt="Slide 1">
         </div>
 
         <div style="flex: 1; min-width: 250px;">
@@ -338,5 +424,4 @@
     <p>&copy; 2025 Project Pedals | Designed for Cyclists</p>
   </footer>
 </body>
-
 </html>
