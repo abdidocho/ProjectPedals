@@ -1,133 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project Pedals</title>
-  <style>
 
-
-
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-        padding-top: 150px; 
-
-    }
- header {
-  background-color: #000000;
-  color: white;
-  padding: 0% 0;
-  text-align: center;
-  position: fixed;
-  margin-top: 0px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 40px;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-nav {
-  background-color: #ffffff;
-  padding: 10px 20px;
-  position: fixed;
-  margin-top: 0px;
-  top: 35px; 
-  width: 100%;
-  z-index: 999;
-}
-
-
-
-
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.logo img {
-  height: 100px;
-  width: 400px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex: 1;
-}
-
- .nav-links a {
-  color: gray;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-    nav a {
-      color: gray;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background-color: gray;
-      margin-bottom: 20px;
-      border-radius: 5px;
-    }
-    h2 {
-      color: #2e8b57;
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-  <p>Contact Us: 836-199-7832</p>
-  </header>
-
- <nav>
-  <div class="nav-container">
-    <div class="logo">
-      <img src="C:\Users\docho817034\Downloads\pixlr-image-generator-686d344ad9f67dc26082e425.png" alt="Project Pedals" width="150" height="50">
-    </div>
-    <div class="nav-links">
-      <a href="#Home">Home</a>
-      <a href="Services.html">Services</a>
-      <a href="#team">Our Team</a>
-      <a href="#comingsoon">Coming Soon</a>
-      <a href="#education">Education</a>
-      <a href="AboutUs.html">About Us</a>
-
-    </div>
-  </div>
-</nav>
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Pedals | Bike Rentals & Repairs</title>
+  <title>Project Pedals</title>
   <style>
     :root {
       --orange: #ffa500;
@@ -144,51 +21,77 @@ nav {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: var(--gray-bg);
       color: var(--text-dark);
+      padding-top: 150px;
     }
 
     header {
-      background-color: var(--dark);
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-    }
+  background-color: #000000;
+  color: white;
+  padding: 0% 0;
+  text-align: center;
+  position: fixed;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
 
-    header a {
-      color: var(--orange);
-      text-decoration: none;
-      font-weight: bold;
-    }
 
     nav {
-      background-color: var(--orange);
-      padding: 15px 0;
-      text-align: center;
+      background-color: #fff;
+      padding: 10px 20px;
+      position: fixed;
+      top: 40px;
+      width: 100%;
+      z-index: 999;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    nav a {
-      color: white;
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .logo img {
+      height: 100px;
+      width: 400px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a {
+      color: gray;
       text-decoration: none;
-      margin: 0 15px;
       font-weight: bold;
-      font-size: 1rem;
-      transition: color 0.3s ease;
+      transition: color 0.3s;
     }
 
-    nav a:hover {
-      color: var(--dark);
+    .nav-links a:hover {
+      color: orange;
     }
 
     section {
       padding: 60px 20px;
       max-width: 1100px;
-      margin: auto;
+      margin: 30px auto;
       background-color: var(--white);
-      margin-bottom: 30px;
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     }
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       color: var(--dark);
     }
 
@@ -197,7 +100,8 @@ nav {
       margin-bottom: 20px;
     }
 
-    p {
+    p,
+    li {
       font-size: 1.1rem;
       color: var(--text-light);
       line-height: 1.6;
@@ -219,20 +123,24 @@ nav {
       font-weight: bold;
     }
 
-    .cta-button {
+    .cta-button,
+    button[type="submit"] {
       display: inline-block;
       background-color: var(--orange);
       color: white;
       padding: 15px 30px;
-      border-radius: 40px;
+      border-radius: 30px;
       text-decoration: none;
       font-size: 1.1rem;
       font-weight: bold;
       margin-top: 20px;
       transition: background-color 0.3s;
+      border: none;
+      cursor: pointer;
     }
 
-    .cta-button:hover {
+    .cta-button:hover,
+    button[type="submit"]:hover {
       background-color: #e69500;
     }
 
@@ -274,27 +182,34 @@ nav {
         margin: 10px 0;
       }
 
-      .bike-types, .image-gallery {
+      .bike-types,
+      .image-gallery {
         flex-direction: column;
         align-items: center;
       }
     }
   </style>
 </head>
-<body>
 
+<body>
   <header>
-    <h1>Project Pedals</h1>
-    <p><a href="#">Bike Rentals & Repairs</a></p>
+    <p style="color: white;">Contact Us: 836-199-7832</p>
   </header>
 
   <nav>
-    <a href="#services">Bike Services & Repair</a>
-    <a href="#team">New Bikes</a>
-    <a href="#used">Used Bikes</a>
-    <a href="#reserve">Reserve</a>
-    <a href="#about">About Us</a>
-    <a href="#faqs">FAQs</a>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="C:\Users\docho817034\Downloads\pixlr-image-generator-686d344ad9f67dc26082e425.png" alt="Project Pedals Logo">
+      </div>
+      <div class="nav-links">
+        <a href="ProjectPetals.html">Home</a>
+        <a href="Services.html">Services</a>
+        <a href="#team">Our Team</a>
+        <a href="#comingsoon">Coming Soon</a>
+        <a href="#education">Education</a>
+        <a href="AboutUs.html">About Us</a>
+      </div>
+    </div>
   </nav>
 
   <section>
@@ -310,88 +225,64 @@ nav {
       <p>Mountain Bike</p>
       <p>Hybrid Bike</p>
       <p>Electric Bike</p>
-      <p> E‑Bike</p>
+      <p>E‑Bike</p>
     </div>
   </section>
 
+  <section id="reserve">
+    <h2>Schedule Your Rental</h2>
+    <h3>Online Reservations Made Easy</h3>
+    <ul>
+      <li>Reserve your bike 24/7 through our website</li>
+      <li>Browse and compare available models</li>
+      <li>Secure online payments</li>
+    </ul>
 
+    <form>
+      <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; margin-bottom: 20px;">
+        <div style="flex: 1; min-width: 250px;">
+          <label for="start-date">Start Date</label>
+          <input type="date" id="start-date" name="start-date" required />
 
-<section id="reserve">
-  <h2>Schedule Your Rental</h2>
-  <h3>Online Reservations Made Easy</h3>
-  <ul>
-    <li>Reserve your bike 24/7 through our website</li>
-    <li>Browse and compare available models</li>
-    <li>Secure online payments</li>
-  </ul>
-
-  <form style="margin-top: 30px;">
-    <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; margin-bottom: 20px;">
-
-      <!-- Start Date & Time -->
-      <div style="flex: 1; min-width: 250px;">
-        <label for="start-date" style="font-weight: bold; display: block; margin-bottom: 8px;">Start Date</label>
-        <input type="date" id="start-date" name="start-date"
-          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
-
-        <label for="start-time" style="font-weight: bold; display: block; margin-top: 15px; margin-bottom: 8px;">Start Time</label>
-        <input type="time" id="start-time" name="start-time"
-          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
-      </div>
-
-      <!-- End Date & Time -->
-      <div style="flex: 1; min-width: 250px;">
-        <label for="end-date" style="font-weight: bold; display: block; margin-bottom: 8px;">End Date</label>
-        <input type="date" id="end-date" name="end-date"
-          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
-
-        <label for="end-time" style="font-weight: bold; display: block; margin-top: 15px; margin-bottom: 8px;">End Time</label>
-        <input type="time" id="end-time" name="end-time"
-          style="width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" required />
-      </div>
-
-    </div>
-
-    <button type="submit"
-      style="background-color: var(--orange); color: white; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 30px; cursor: pointer;">
-      Reserve Now
-    </button>
-  </form>
-</section>
-
-
-<section id="my-carousel-section" class="py-5">
-  <div class="container">
-    <h2 class="mb-4">Featured Items</h2>
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="D:\ssquare_01\img\bike4.jpg" class="d-block w-100" alt="Slide 1">
+          <label for="start-time">Start Time</label>
+          <input type="time" id="start-time" name="start-time" required />
         </div>
 
-        <div class="carousel-item">
-          <img src="D:\ssquare_01\img\ebike3.jpg" class="d-block w-100" alt="Slide 2">
+        <div style="flex: 1; min-width: 250px;">
+          <label for="end-date">End Date</label>
+          <input type="date" id="end-date" name="end-date" required />
+
+          <label for="end-time">End Time</label>
+          <input type="time" id="end-time" name="end-time" required />
         </div>
-
-    
       </div>
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <section id="my-carousel-section">
+    <div class="container">
+      <h2>Featured Items</h2>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="D:\ssquare_01\img\bike4.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="D:\ssquare_01\img\ebike3.jpg" class="d-block w-100" alt="Slide 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-  </div>
-</section>
-
-
-
+  </section>
 
   <section id="faqs">
     <h2>Frequently Asked Questions</h2>
@@ -415,21 +306,8 @@ nav {
       <h3>How do I choose tire pressure?</h3>
       <p>Check sidewall markings and use a pump with a pressure gauge for best results.</p>
     </div>
-
- <button type="submit"
-      style="background-color: var(--orange); color: white; border: none; padding: 12px 24px; font-size: 1rem; border-radius: 30px; cursor: pointer;">
-      MORE FAQS
-    </button>
-  </form>
-</section>
-
-
-
-
-
-
-
-
+    <button type="submit">MORE FAQS</button>
+  </section>
 
   <section id="contact">
     <h2>Visit or Contact Us</h2>
@@ -438,13 +316,7 @@ nav {
     <p><em>Online features launching soon — stay tuned!</em></p>
   </section>
 
-
-
-
-
- 
-
- <section>
+  <section>
     <hr>
     <h3>Site Index</h3>
     <p>Home</p>
@@ -453,18 +325,18 @@ nav {
     <p>Location</p>
     <p>Rent Your Bike</p>
     <p>Find a Bike</p>
-<hr> 
+    <hr>
     <h3>Store Hours</h3>
-    <p>Monday:10am-2pm!</p>
-    <p>Tuesday–Thursday: 12 pm – 6 pm</p>
-    <p>Friday: 12 pm – 5 pm</p>
-    <p>Saturday: 10 am – 2 pm</p>
-    <p>Sunday: closed</p>
+    <p>Monday: 10am - 2pm</p>
+    <p>Tuesday–Thursday: 12pm – 6pm</p>
+    <p>Friday: 12pm – 5pm</p>
+    <p>Saturday: 10am – 2pm</p>
+    <p>Sunday: Closed</p>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Project Pedals | Designed for Cyclists</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Project Pedals | Designed for Cyclists</p>
+  </footer>
+</body>
 
-
-  
-    
+</html>
